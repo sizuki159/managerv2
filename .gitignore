@@ -1,0 +1,11 @@
+assets/user/*
+assets/tmp/*
+assets/cache/*
+assets/token/*
+assets/backup/*
+assets/upgrade/*
+
+assets/changelog.md
+assets/readme.md
+assets/config/user.php
+assets/config/upgrade.php

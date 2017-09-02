@@ -1,0 +1,156 @@
+div#about {
+    background-color: #ffffff;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div#about > h1 {
+    color: #00897b;
+    font-size: 300%;
+    font-weight: normal;
+    font-variant: normal;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+div#about > h5 {
+    color: #c0c0c0;
+    font-size: 100%;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+div#about > ul,
+ul.about-list {
+	width: 100%;
+	text-align: left;
+}
+
+div#about > ul,
+div#about > ul > li,
+div#about > ul > li > ul,
+div#about > ul > li > ul > li,
+
+ul.about-list,
+ul.about-list > li,
+ul.about-list > li > ul,
+ul.about-list > li > ul > li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#about > ul {
+    border-top: 1px solid #efefef;
+    padding-top: 15px;
+}
+
+div#about > ul,
+ul.about-list {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+div#about > ul > li.label,
+div#about > ul > li.value,
+
+ul.about-list > li.label,
+ul.about-list > li.value {
+	display: inline-block;
+}
+
+div#about > ul > li > li,
+ul.about-list > li > li {
+	height: 30px;
+}
+
+div#about ul > li > ul > li span,
+ul.about-list > li > ul > li span {
+	line-height: 30px;
+}
+
+div#about ul > li.label li,
+ul.about-list > li.label li {
+	padding-left: 10px;
+}
+
+div#about ul > li.label li span,
+ul.about-list > li.label li span {
+	color: #00897b;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div#about ul > li.value li span,
+ul.about-list > li.value li span {
+	color: #707070;
+}
+
+div#about ul > li.value > li,
+ul.about-list > li.value > li {
+	max-width: 100%;
+}
+
+div#about ul > li.label li,
+div#about ul > li.value li,
+
+ul.about-list > li.label li,
+ul.about-list > li.value li {
+	padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div#about ul > li.message,
+ul.about-list > li.message,
+
+div#about ul > li.message > div,
+ul.about-list > li.message > div {
+    display: block;
+}
+
+div#about ul > li.message > div:first-child,
+ul.about-list > li.message > div:first-child {
+    padding: 15px;
+    text-align: center;
+}
+
+div#about ul > li.message > div:first-child span,
+ul.about-list > li.message > div:first-child span {
+    color: #00897b;
+    font-weight: bold;
+}
+
+div#about ul > li.message > div:last-child,
+ul.about-list > li.message > div:last-child {
+    padding: 10px;
+    text-align: left;
+}
+
+div#about ul > li.message > div:last-child span,
+ul.about-list > li.message > div:last-child span {
+    color: #505050;
+}
+
+div.about-button-check {
+    border-top: 1px solid #efefef;
+    width: auto;
+    padding: 10px;
+}
+
+div.about-button-check * {
+    color: #707070;
+    font-weight: bold;
+}

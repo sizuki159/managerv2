@@ -1,0 +1,376 @@
+ul.location-path,
+ul.location-path li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.location-path {
+    background-color: #ffffff;
+    display: block;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul.location-path li {
+    height: 45px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.location-path li span {
+    color: #505050;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 45px;
+}
+
+ul.location-path li a:hover span,
+ul.location-path li a:focus span {
+    color: #909090;
+    font-weight: bold;
+}
+
+ul.file-list,
+ul.file-list > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.file-list {
+    background-color: #ffffff;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul.file-list.no-box-shadow {
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+         -o-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+ul.file-list > li {
+    border-bottom: 1px solid #efefef;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+
+    float: left;
+    width: 50%;
+    height: 45px;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+}
+
+ul.file-list > li:last-child {
+    border: 0;
+}
+
+ul.file-list > li > a {
+    line-height: 45px;
+}
+
+ul.file-list > li span.icomoon {
+    vertical-align: middle;
+}
+
+ul.file-list > li a:hover,
+ul.file-list > li a:hover span,
+ul.file-list > li a:hover strong {
+    color: #909090;
+}
+
+ul.file-list > li.type-directory a:hover span.icomoon {
+    color: #ffd300;
+}
+
+ul.file-list > li span.icomoon {
+    font-size: 20px;
+    margin-right: 5px;
+    line-height: 45px;
+}
+
+ul.file-list > li.back,
+ul.file-list > li.empty,
+ul.file-list > li.paging,
+ul.file-list > li.checkbox-all {
+    margin: 0;
+    width: 100%;
+}
+
+ul.file-list > li.checkbox-all label span {
+    line-height: 45px;
+    margin-left: 0;
+}
+
+ul.file-list > li.back span.icomoon,
+ul.file-list > li.empty span.icomoon {
+    margin-right: 5px;
+}
+
+ul.file-list > li.empty span {
+    color: #ef5350;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
+ul.file-list > li.paging {
+    padding-left: 0;
+    padding-right: 0;
+    text-overflow: initial;
+}
+
+ul.file-list > li.paging ul.paging {
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+         -o-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+ul.file-list > li.type-directory,
+ul.file-list > li.type-file,
+ul.file-list > li.empty,
+ul.file-list > li.checkbox-all {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul.file-list > li.checkbox-all input[type=checkbox] + label span {
+    padding-left: 10px;
+}
+
+ul.file-list > li.type-directory {
+    font-weight: bold;
+}
+
+ul.file-list > li.type-directory div.icon,
+ul.file-list > li.type-file div.icon {
+    display: inline-block;
+    float: left;
+    height: 45px;
+}
+
+ul.file-list > li.back span.icomoon,
+ul.file-list > li.empty span.icomoon,
+ul.file-list > li.type-directory span.icomoon {
+    color: #ffb300;
+    font-size: 25px;
+}
+
+ul.file-list > li.type-file {
+    color: #606060;
+}
+
+ul.file-list > li.type-file span.icomoon {
+    margin-right: 10px;
+}
+
+ul.file-list > li.back a,
+ul.file-list > li.type-directory a.file-name,
+ul.file-list > li.type-file a.file-name {
+    display: inline-block;
+    max-width: 55%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+ul.file-list > li.back a {
+    max-width: 95%;
+}
+
+@media all and (max-width: 340px) {
+    ul.file-list > li.type-directory a.file-name,
+    ul.file-list > li.type-file a.file-name {
+        max-width: 55%;
+    }
+}
+
+@media all and (max-width: 300px) {
+    ul.file-list > li.type-directory a.file-name,
+    ul.file-list > li.type-file a.file-name {
+        max-width: 50%;
+    }
+}
+
+ul.file-list > li.type-directory a.chmod-permission,
+ul.file-list > li.type-file div.chmod-size {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+}
+
+@media all and (max-width: 780px) {
+    ul.file-list > li {
+        width: 100%;
+    }
+
+    ul.file-list > li.entry-odd a.chmod-permission,
+    ul.file-list > li.entry-odd div.chmod-size {
+        right: 0;
+    }
+}
+
+@media all and (min-width: 780px) {
+    ul.file-list > li.entry-odd {
+        width: 100%;
+    }
+
+    ul.file-list > li.entry-odd a.chmod-permission,
+    ul.file-list > li.entry-odd div.chmod-size {
+        right: 50%;
+    }
+
+    ul.file-list > li.entry-only-one a.file-name {
+        max-width: 30%;
+    }
+}
+
+ul.file-list > li.type-directory a.chmod-permission span,
+ul.file-list > li.type-file div.chmod-size span {
+    color: #d0d0d0;
+    line-height: 45px;
+}
+
+ul.file-list > li.type-directory a.chmod-permission:hover span,
+ul.file-list > li.type-file div.chmod-size a:hover span {
+    color: #a0a0a0;
+}
+
+ul.file-info,
+ul.file-info > li,
+ul.file-info > li > ul,
+ul.file-info > li > ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.file-info {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+	width: 100%;
+	text-align: left;
+}
+
+ul.file-info > li.title {
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.file-info > li.title > span {
+    color: #505050;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+ul.file-info > li.label,
+ul.file-info > li.value {
+    display: inline-block;
+}
+
+ul.file-info > li li {
+    height: 30px;
+}
+
+ul.file-info > li li > span {
+    line-height: 30px;
+}
+
+ul.file-info > li.label li {
+    padding-left: 10px;
+}
+
+ul.file-info > li.label span {
+    color: #00897b;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul.file-info > li.value,
+ul.file-info > li.value span {
+    color: #707070;
+}
+
+ul.file-info > li.value {
+    max-width: 70%;
+}
+
+@media all and (max-width: 480px) {
+    ul.file-info > li.value {
+        max-width: 40%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    ul.file-info > li.value {
+        max-width: 60%;
+    }
+}
+
+ul.file-info > li.label li,
+ul.file-info > li.value li {
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.file-info > li.image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+ul.file-info > li.image span {
+    color: #c0c0c0;
+}
+
+ul.file-info > li.image img {
+    max-width: 90%;
+}

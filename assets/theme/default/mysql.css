@@ -1,0 +1,437 @@
+div.mysql-query-string {
+    background-color: #ffffff;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+div.mysql-query-string span {
+    color: #707070;
+}
+
+ul.list-database,
+ul.list-database > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.list-database {
+    background-color: #ffffff;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul.list-database.no-box-shadow {
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+         -o-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+ul.list-database > li {
+    border-bottom: 1px solid #efefef;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+
+    float: left;
+    width: 50%;
+    height: 45px;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+}
+
+ul.list-database > li:last-child {
+    border: 0;
+}
+
+ul.list-database > li > a {
+    line-height: 45px;
+}
+
+ul.list-database > li span.icomoon {
+    vertical-align: middle;
+}
+
+ul.list-database > li a:hover,
+ul.list-database > li a:hover span,
+ul.list-database > li a:hover strong {
+    color: #909090;
+}
+
+ul.list-database > li span.icomoon {
+    font-size: 20px;
+    margin-right: 5px;
+    line-height: 45px;
+}
+
+@media all and (max-width: 780px) {
+    ul.list-database > li {
+        width: 100%;
+    }
+
+    ul.list-database > li.entry-odd div.info {
+        right: 0 !important;
+    }
+}
+
+@media all and (min-width: 780px) {
+    ul.list-database li.entry-odd {
+        width: 100%;
+    }
+
+    ul.list-database > li.entry-odd div.info {
+        right: 50% !important;
+    }
+}
+
+ul.list-database > li.back,
+ul.list-database > li.empty,
+ul.list-database > li.paging,
+ul.list-database > li.order,
+ul.list-database > li.checkbox-all {
+    margin: 0;
+    width: 100%;
+}
+
+ul.list-database > li.checkbox-all label span {
+    line-height: 45px;
+    margin-left: 0;
+}
+
+ul.list-database > li.type-database span.icomoon,
+ul.list-database > li.back span.icomoon,
+ul.list-database > li.empty span.icomoon,
+ul.list-database > li.order span.icomoon {
+    margin-right: 5px;
+}
+
+ul.list-database > li.empty span {
+    color: #ef5350;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
+ul.list-database > li.paging {
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    text-overflow: initial;
+}
+
+ul.list-database > li.paging ul.paging {
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+         -o-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+ul.list-database > li.type-database,
+ul.list-database > li.type-table,
+ul.list-database > li.type-column,
+ul.list-database > li.type-backup-record,
+ul.list-database > li.empty,
+ul.list-database > li.order,
+ul.list-database > li.checkbox-all {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul.list-database > li.checkbox-all input[type=checkbox] + label span {
+    padding-left: 10px;
+}
+
+ul.list-database > li.type-database {
+    font-weight: bold;
+}
+
+ul.list-database > li.type-database div.icon,
+ul.list-database > li.type-table div.icon,
+ul.list-database > li.type-column div.icon,
+ul.list-database > li.type-backup-record div.icon {
+    display: inline-block;
+    float: left;
+    height: 45px;
+}
+
+ul.list-database > li.back span.icomoon,
+ul.list-database > li.empty span.icomoon,
+ul.list-database > li.order span.icomoon,
+ul.list-database > li.type-database span.icomoon,
+ul.list-database > li.type-table span.icomoon,
+ul.list-database > li.type-column span.icomoon,
+ul.list-database > li.type-backup-record span.icomoon {
+    color: #26a69a;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+ul.list-database > li.back a:hover span.icomoon,
+ul.list-database > li.type-database a:hover span.icomoon,
+ul.list-database > li.type-table a:hover span.icomoon,
+ul.list-database > li.type-column a:hover span.icomoon,
+ul.list-database > li.type-backup-record a:hover span.icomoon {
+    color: #80cbc4;
+}
+
+ul.list-database > li.order {
+    text-align: center;
+}
+
+ul.list-database > li.order span {
+    font-weight: bold;
+}
+
+ul.list-database > li.order span.text {
+    font-weight: normal;
+}
+
+ul.list-database > li.order span.choose {
+    color: #00897b;
+}
+
+ul.list-database > li.order a:hover span.choose {
+    color: #00a99b;
+}
+
+ul.list-database > li.order span.current {
+    color: #707070;
+}
+
+ul.list-database > li.type-table,
+ul.list-database > li.type-column,
+ul.list-database > li.type-backup-record,
+ul.list-database > li.type-backup-record span {
+    color: #606060;
+}
+
+ul.list-database > li.type-table span.icomoon,
+ul.list-database > li.type-column span.icomoon,
+ul.list-database > li.type-backup-record span.icomoon {
+    margin-right: 10px;
+}
+
+ul.list-database > li.type-database a.name,
+ul.list-database > li.type-table a.name,
+ul.list-database > li.type-column a.name,
+ul.list-database > li.type-backup-record a.name {
+    display: inline-block;
+    max-width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media all and (max-width: 340px) {
+    ul.list-database > li.type-database a.name,
+    ul.list-database > li.type-table a.name,
+    ul.list-database > li.type-column a.name,
+    ul.list-database > li.type-backup-record a.name {
+        max-width: 45%;
+    }
+}
+
+@media all and (max-width: 300px) {
+    ul.list-database > li.type-database a.name,
+    ul.list-database > li.type-table a.name,
+    ul.list-database > li.type-column a.name,
+    ul.list-database > li.type-backup-record a.name {
+        max-width: 40%;
+    }
+}
+
+@media all and (max-width: 780px) {
+    ul.list-database > li.type-database a.name {
+        max-width: 95%;
+    }
+}
+
+@media all and (min-width: 780px) {
+    ul.list-database > li.entry-only-one a.name {
+        max-width: 30%;
+    }
+}
+
+ul.list-database > li div.info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+}
+
+ul.list-database > li.entry-odd div.info {
+    right: 50%;
+}
+
+ul.list-database > li div.info span {
+    color: #d0d0d0;
+    line-height: 45px;
+}
+
+ul.list-database > li div.info a:hover span {
+    color: #a0a0a0;
+}
+
+ul.mysql-info,
+ul.mysql-info > li,
+ul.mysql-info > li > ul,
+ul.mysql-info > li > ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.mysql-info {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+       -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+        -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+         -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20);
+
+    width: 100%;
+    text-align: left;
+}
+
+ul.mysql-info > li.title,
+ul.mysql-info > li.title_list {
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.mysql-info > li.title_list {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ul.mysql-info > li.title > span {
+    color: #505050;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+ul.mysql-info > li.title_list > span {
+    color: #00897b;
+    font-weight: bold;
+}
+
+ul.mysql-info > li.divider {
+    border-top: 1px solid #fafafa;
+    display: block;
+    margin: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul.mysql-info > li.label,
+ul.mysql-info > li.value {
+    display: inline-block;
+}
+
+ul.mysql-info > li li {
+    height: 30px;
+}
+
+ul.mysql-info > li li > span {
+    line-height: 30px;
+}
+
+ul.mysql-info > li.label li {
+    padding-left: 10px;
+}
+
+ul.mysql-info > li.label span {
+    color: #00897b;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul.mysql-info > li.value,
+ul.mysql-info > li.value span {
+    color: #707070;
+}
+
+ul.mysql-info > li.value {
+    max-width: 70%;
+}
+
+@media all and (max-width: 480px) {
+    ul.mysql-info > li.value {
+        max-width: 40%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    ul.mysql-info > li.value {
+        max-width: 60%;
+    }
+}
+
+ul.mysql-info > li.label li,
+ul.mysql-info > li.value li {
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.mysql-info > li.button-action-box {
+    padding-bottom: 15px;
+}
+
+ul.mysql-info > li.comment {
+    border-top: 1px solid #fafafa;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+ul.mysql-info > li.comment > div.title {
+    text-align: center;
+}
+
+ul.mysql-info > li.comment > div.title span {
+    color: #00897b;
+    font-weight: bold;
+}
+
+ul.mysql-info > li.comment > div.comment {
+    padding: 5px;
+    text-align: left;
+}
+
+ul.mysql-info > li.comment > div.comment span {
+    color: #707070;
+}
